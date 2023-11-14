@@ -9,11 +9,11 @@ Please feel free to use the the table of contents to jump around to the areas yo
 
 <br>
 
-# Table of Contents
+# Contents
 
 - [Unity FPS Game](#unity-fps-game)
 - [Unity Co-op Shooter](#unity-co-op-shooter)
-- [Custom Game Engine in C++ and OpenGL](#custom-game-engine-in-c\+\+-and-opengl)
+- [Custom Game Engine in C++ and OpenGL](#custom-game-engine-in-c-and-opengl)
 - [Networked Messaging Application](#networked-messaging-application)
 
 <br>
