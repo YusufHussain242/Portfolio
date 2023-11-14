@@ -55,3 +55,7 @@ Server listens for incoming connections on main thread. When a client connects, 
 Can send more than just strings by using serializable objects allowing me to send any predefined bundle of data types (similar to JSON).
 
 Original intention for application was to eventually be used to transmit data between players for one of my Unity games. However, in the end I opted to use one of the public API’s instead as they were more feature rich.
+
+![MessagingAppExample](https://github.com/YusufHussain242/Portfolio/assets/71587676/855f2974-9a83-4f97-a36a-46edde2083ba)
+
+
