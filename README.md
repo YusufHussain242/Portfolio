@@ -19,6 +19,9 @@ Please feel free to use the the table of contents to jump around to the areas yo
 <br>
 
 # Unity FPS Game
+
+**Tags**: *Unity, C#, AI*
+
 Includes usage of the unity animation, pathfinding, and audio systems.
 
 Game was fully completed with menu’s, UI, and a full playable level
@@ -33,6 +36,9 @@ https://github.com/YusufHussain242/Portfolio/assets/71587676/bbbb4b82-3f79-4181-
 <br>
 
 # Unity Co-op Shooter
+
+**Tags**: *Unity, C#, Networking*
+
 Note that unlike the previous, this game is not complete and is still under development. Therefore, there are no models or textures in the game
 
 The game involved a team of 4 players, completing a series of challenges and puzzles with a heavy emphasis on teamwork and communication to succeed.
@@ -51,6 +57,8 @@ https://github.com/YusufHussain242/Portfolio/assets/71587676/0b74ca4a-a9bf-4920-
 
 # Custom Game Engine in C++ and OpenGL
 
+**Tags**: *C++, OpenGL, Systems-Level, OOP*
+
 While the game engine did involve using and understanding many of the complexities of OpenGL such as shaders, index buffers, and vertex array objects, you can see that the engine is not very graphically complex. This is because graphics rendering was not the main goal of the engine.
 
 The main goal of the engine was to produce a suite of game development tools, to create a game development framework which produces a workflow similar to the one found in unity. These tools include a component system, entity management system, and a collision detection system.
@@ -64,6 +72,8 @@ https://github.com/YusufHussain242/Portfolio/assets/71587676/190cc0f8-051e-47e3-
 <br>
 
 # Networked Messaging Application
+
+**Tags**: *C#, Sockets, Networking, Systems-Level*
 
 Server listens for incoming connections on main thread. When a client connects, a new thread is made and the new socket connection is stored in a vector.
 
