@@ -3,7 +3,7 @@ Welcome to my portfolio! This is a collection of all the notable projects that I
 
 Please feel free to use the the table of contents to jump around to the areas you're interested in.
 
-**Important**, this page is still under development and there is still some content missing. The following features are currently missing:
+**Important**, this page is still under development and is being updated regularly. The following features are yet to be implemented:
 - Not all sections contains links to GitHub repos. This is likely because they are using a different or no source control soltion and have not yet been ported to GitHub. Notably, projects developed in Unity used PlasticSCM for source control instead of GitHub
 - Some projects are still missing such as my web development projects Treoguessr and Munch Meter. These will be added soon
 
