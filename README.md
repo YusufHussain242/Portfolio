@@ -59,6 +59,8 @@ https://github.com/YusufHussain242/Portfolio/assets/71587676/0b74ca4a-a9bf-4920-
 
 **Tags**: *C++, OpenGL, Systems-Level, OOP*
 
+[(Visit the Repo Here)](https://github.com/YusufHussain242/GameEngine)
+
 While the game engine did involve using and understanding many of the complexities of OpenGL such as shaders, index buffers, and vertex array objects, you can see that the engine is not very graphically complex. This is because graphics rendering was not the main goal of the engine.
 
 The main goal of the engine was to produce a suite of game development tools, to create a game development framework which produces a workflow similar to the one found in unity. These tools include a component system, entity management system, and a collision detection system.
@@ -74,6 +76,8 @@ https://github.com/YusufHussain242/Portfolio/assets/71587676/190cc0f8-051e-47e3-
 # Networked Messaging Application
 
 **Tags**: *C#, Sockets, Networking, Systems-Level*
+
+[(Visit the Repo Here)](https://github.com/YusufHussain242/OnlineMessenger)
 
 Server listens for incoming connections on main thread. When a client connects, a new thread is made and the new socket connection is stored in a vector.
 
