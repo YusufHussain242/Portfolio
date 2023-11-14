@@ -13,7 +13,7 @@ AI design:
 - Within a particular state the AI would go through a decision tree to determine next move. This would take into account the enemy’s current health, distance to player, and distance to different “shooting points” and “cover points” which would be placed around the map
 - For example, if the enemy’s health gets too low it will begin retreating to cover as demonstrated in following slides. See video on GitHub
 
-https://github.com/YusufHussain242/Portfolio/assets/71587676/5790648c-0ebe-4ac2-aa42-3203ce858223
+https://github.com/YusufHussain242/Portfolio/assets/71587676/bbbb4b82-3f79-4181-93fa-01e12837857c
 
 <br>
 
@@ -44,8 +44,14 @@ The main goal of the engine was to produce a suite of game development tools, to
 
 Implemented ray casts for collision detection using vector mathematics. An in depth explanation of this can be found on GitHub.
 
-
 https://github.com/YusufHussain242/Portfolio/assets/71587676/190cc0f8-051e-47e3-a336-117e96284e01
 
+<br>
 
+# Networked Messaging Application
 
+Server listens for incoming connections on main thread. When a client connects, a new thread is made and the new socket connection is stored in a vector.
+
+Can send more than just strings by using serializable objects allowing me to send any predefined bundle of data types (similar to JSON).
+
+Original intention for application was to eventually be used to transmit data between players for one of my Unity games. However, in the end I opted to use one of the public API’s instead as they were more feature rich.
