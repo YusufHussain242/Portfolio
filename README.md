@@ -73,17 +73,21 @@ https://github.com/YusufHussain242/Portfolio/assets/71587676/190cc0f8-051e-47e3-
 
 <br>
 
-# Networked Messaging Application
+# TCP Based Webserver
 
 **Tags**: *C#, Sockets, Networking, Systems-Level*
 
 [(Visit the Repo Here)](https://github.com/YusufHussain242/OnlineMessenger)
 
-Server listens for incoming connections on main thread. When a client connects, a new thread is made and the new socket connection is stored in a vector.
+Multi-threaded webserver can handle multiple clients simultaneously, managing multiple sessions where clients and communicate with other clients in the session.
 
-Can send more than just strings by using serializable objects allowing me to send any predefined bundle of data types (similar to JSON).
+The Webserver is capable of recieving multiple different kinds of data such as strings and ints, as well larger C# objects containing multiple fields and broadcasting them to clients within a session.
 
-Original intention for application was to eventually be used to transmit data between players for one of my Unity games. However, in the end I opted to use one of the public API’s instead as they were more feature rich.
+The C# objects are serialized data optimally to minimise payload size, making the server as efficient as possible. This is significantly faster than using JSON for example.
+
+Original intention was to be used for real-time data transmission between players in one of the Unity games above. However, in the end I opted to use one of the public API’s instead as they were more feature rich.
+
+I should make clear that this is not a HTTP webserver, those are more focused on versatility and are to be used for web development. My webserver is focused maximising performance for potential application in real time data transmission.
 
 ![MessagingAppExample](https://github.com/YusufHussain242/Portfolio/assets/71587676/855f2974-9a83-4f97-a36a-46edde2083ba)
 
